@@ -12,3 +12,13 @@ body:
     attributes:
       label: Test
       description: Example Description
+  - type: dropdown
+    id: dropdown-example
+    attributes:
+      label: Dropdown
+      description: Lorum ipsum
+      options:
+        - First option
+        - Second option
+    validations:
+      required: false
